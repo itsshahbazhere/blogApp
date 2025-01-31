@@ -31,8 +31,8 @@ npm install dotenv express mongoose nodemon
 ### 3. Set Up Environment Variables
 Create a `.env` file in the root directory and configure the following:
 ```env
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
+DATABASE_URL = mongodb://localhost:27017/blogApp
+PORT=3000
 ```
 
 ### 4. Start the Server
