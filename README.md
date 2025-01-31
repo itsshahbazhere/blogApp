@@ -37,7 +37,7 @@ PORT=3000
 
 ### 4. Start the Server
 ```sh
-npm start
+npm run dev
 ```
 
 The server will run on `http://localhost:3000`
